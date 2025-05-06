@@ -1,0 +1,715 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light background color */
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #4caf50; /* Light green background for header */
+    padding: 20px 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-gradient {
+    height: 10px; /* Adjust height as needed */
+    background: linear-gradient(90deg, #28a745, #34d058); /* Green gradient */
+}
+
+
+.logo img {
+    height: 60px; /* Set a fixed height for the logo */
+    width: auto; /* Maintain aspect ratio */
+}
+
+h1 {
+    font-size: 2.5em; /* Increase the size of the title */
+    color: white; /* White text color for contrast */
+    margin: 0;
+}
+
+nav ul {
+    list-style: none; /* Remove default list style */
+    display: flex; /* Use Flexbox for horizontal list */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px; /* Spacing between menu items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text color */
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffeb3b; /* Light yellow color on hover */
+}
+
+/* Header Container */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white; /* Adjust as needed */
+}
+
+/* Logo and Title Side-by-Side */
+.logo-title {
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* Ensures it acts as a single clickable link */
+}
+
+.logo-title img {
+    margin-right: 10px; /* Space between logo and title */
+}
+
+.logo-title h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: white;
+}
+
+/* Navigation Styles */
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffeb3b;
+}
+
+/* Profile Link */
+.profile-link {
+    display: flex;
+    align-items: center;
+}
+
+.profile-icon {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+
+
+/* Hero Section Styles */
+.hero {
+    background: url('images/hero-background.jpg') no-repeat center center; /* Add your hero background image */
+    background-size: cover; /* Cover the entire section */
+    color: white; /* Text color */
+    padding: 100px 20px; /* Padding */
+    text-align: center; /* Center the text */
+}
+
+.cta-button {
+    background-color: #ffeb3b; /* Light yellow button color */
+    color: #333; /* Dark text color for contrast */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s; /* Transition effect */
+}
+
+.cta-button:hover {
+    background-color: #fdd835; /* Darken button on hover */
+}
+
+/* Slider Section Styles */
+.slider_section {
+    margin: 20px 0; /* Margin for spacing */
+}
+
+/* Main Content Only */
+.main-content {
+    max-width: 1200px; /* Limit the width for a cleaner look */
+    margin: 0 auto; /* Center the main content */
+    padding: 0 20px; /* Side padding */
+}
+
+/* Clickable Images Grid */
+.main-content .clickable-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center-align images in the grid */
+    gap: 20px; /* Space between items */
+    margin-top: 20px;
+}
+
+.main-content .category {
+    text-align: center;
+    width: 200px; /* Width for each image container */
+}
+
+.main-content .category img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 10px;
+    border: 2px solid #4caf50;
+    transition: transform 0.3s ease;
+}
+
+.main-content .category img:hover {
+    transform: scale(1.05);
+}
+
+.main-content .category p {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+
+/* Testimonials Section Styles */
+.testimonials {
+    padding: 40px 20px; /* Padding for top and bottom */
+    background-color: #e7f9e9; /* Very light green background */
+}
+
+.testimonials-container {
+    max-width: 800px; /* Max width */
+    margin: 0 auto; /* Center align */
+    display: flex; /* Use Flexbox for alignment */
+    flex-direction: column; /* Stack testimonials vertically */
+    gap: 20px; /* Space between testimonials */
+}
+
+.testimonial {
+    background-color: white; /* White background for testimonial */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+    padding: 20px; /* Padding */
+    display: flex; /* Use Flexbox for layout */
+    align-items: center; /* Center align items vertically */
+}
+
+.testimonial img.avatar {
+    border-radius: 50%; /* Circular avatar */
+    height: 50px; /* Fixed height */
+    width: 50px; /* Fixed width */
+    margin-right: 15px; /* Space between image and text */
+}
+
+.testimonial blockquote {
+    margin: 0; /* Remove margin */
+}
+
+
+.testimonials-container {
+    max-width: 800px; /* Max width */
+    margin: 0 auto; /* Center align */
+}
+
+/* Newsletter Section Styles */
+.newsletter {
+    padding: 40px 20px; /* Padding */
+    text-align: center; /* Center align */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+    text-align: center; /* Center align */
+    padding: 10px 0; /* Padding */
+}
+
+/* Services Section Styles */
+#services {
+    padding: 40px 20px; /* Padding for the section */
+    background-color: #f0f8f0; /* Light green background */
+}
+
+.search-form {
+    display: flex; /* Flexbox for alignment */
+    justify-content: center; /* Center the form */
+    margin-bottom: 20px; /* Spacing below the form */
+}
+
+.search-form input {
+    padding: 10px; /* Padding for input */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 10px; /* Spacing between input and button */
+}
+
+.search-form button {
+    background-color: #4caf50; /* Green button */
+    color: white; /* White text */
+    padding: 10px 15px; /* Button padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.search-form button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.services-container {
+    display: flex; /* Flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping to new line */
+    justify-content: center; /* Center align cards */
+    gap: 20px; /* Spacing between cards */
+}
+
+.service-card {
+    background-color: white; /* White background for cards */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+    padding: 20px; /* Padding for cards */
+    width: 250px; /* Fixed width for cards */
+    text-align: center; /* Center text */
+}
+
+.service-card img {
+    width: 100%; /* Make images responsive */
+    border-radius: 5px; /* Rounded corners for images */
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e7f9e9;
+}
+
+.account-container {
+    display: flex;
+    margin: 30px auto;
+    max-width: 1200px;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 250px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.edit-profile-link {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 5px;
+    color: gray;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-section h2 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.edit-profile-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.edit-profile-btn:hover {
+    background-color: #45a049;
+}
+
+
+/* Main Profile Box Styles */
+.profile-box {
+    background-color: white;
+    padding: 20px;
+    width: 75%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-box h2 {
+    font-size: 1.5rem;
+    color: #4caf50;
+    margin-bottom: 5px;
+}
+
+.profile-box p {
+    color: #666;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+/* Profile Details Styles */
+.profile-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: #e7f9e9;
+}
+
+.left-details {
+    width: 60%;
+    background-color: transparent; /* Matches the background */
+    padding: 10px;
+}
+
+.detail-item {
+    margin-bottom: 15px;
+}
+
+.detail-item strong {
+    font-weight: 600;
+}
+
+.change-link {
+    color: #4caf50;
+    margin-left: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.my-account ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Profile Picture Section */
+.right-details {
+    width: 30%;
+    text-align: center;
+    display: flex;       /* Flex container for vertical alignment */
+    flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+}
+
+#upload-profile-pic {
+    display: block;
+    margin-top: 10px;
+}
+
+.profile-pic-large {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.change-image-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.change-image-btn:hover {
+    background-color: #45a049;
+}
+
+.change-image-btn:focus {
+    outline: none;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="date"], select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.save-changes-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.save-changes-btn:hover {
+    background-color: #45a049;
+}
+
+/*about us*/
+
+.explore-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #28a745; /* Adjust for a green that matches your theme */
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 50px; /* Makes the button rounder */
+    transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+    background-color: #218838; /* Slightly darker green on hover */
+}
+
+
+
+/*chatbot - medihub*/
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #E3F2FD;
+}
+.chatbot-toggler {
+  position: fixed;
+  bottom: 30px;
+  right: 35px;
+  outline: none;
+  border: none;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #418c44;
+  transition: all 0.2s ease;
+}
+body.show-chatbot .chatbot-toggler {
+  transform: rotate(90deg);
+}
+.chatbot-toggler span {
+  color: #fff;
+  position: absolute;
+}
+.chatbot-toggler span:last-child,
+body.show-chatbot .chatbot-toggler span:first-child  {
+  opacity: 0;
+}
+body.show-chatbot .chatbot-toggler span:last-child {
+  opacity: 1;
+}
+.chatbot {
+  position: fixed;
+  right: 35px;
+  bottom: 90px;
+  width: 420px;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.5);
+  transform-origin: bottom right;
+  box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+              0 32px 64px -48px rgba(0,0,0,0.5);
+  transition: all 0.1s ease;
+}
+body.show-chatbot .chatbot {
+  opacity: 1;
+  pointer-events: auto;
+  transform: scale(1);
+}
+.chatbot header {
+  padding: 16px 0;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  background: #418c44;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.chatbot header span {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  display: none;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+header h2 {
+  font-size: 1.4rem;
+}
+.chatbot .chatbox {
+  overflow-y: auto;
+  height: 510px;
+  padding: 30px 20px 100px;
+}
+.chatbot :where(.chatbox, textarea)::-webkit-scrollbar {
+  width: 6px;
+}
+.chatbot :where(.chatbox, textarea)::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 25px;
+}
+.chatbot :where(.chatbox, textarea)::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 25px;
+}
+.chatbox .chat {
+  display: flex;
+  list-style: none;
+}
+.chatbox .outgoing {
+  margin: 20px 0;
+  justify-content: flex-end;
+}
+.chatbox .incoming span {
+  width: 32px;
+  height: 32px;
+  color: #fff;
+  cursor: default;
+  text-align: center;
+  line-height: 32px;
+  align-self: flex-end;
+  background: #418c44;
+  border-radius: 4px;
+  margin: 0 10px 7px 0;
+}
+.chatbox .chat p {
+  white-space: pre-wrap;
+  padding: 12px 16px;
+  border-radius: 10px 10px 0 10px;
+  max-width: 75%;
+  color: #fff;
+  font-size: 0.95rem;
+  background: #418c44;
+}
+.chatbox .incoming p {
+  border-radius: 10px 10px 10px 0;
+}
+.chatbox .chat p.error {
+  color: #721c24;
+  background: #f8d7da;
+}
+.chatbox .incoming p {
+  color: #000;
+  background: #f2f2f2;
+}
+.chatbot .chat-input {
+  display: flex;
+  gap: 5px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  padding: 3px 20px;
+  border-top: 1px solid #ddd;
+}
+.chat-input textarea {
+  height: 55px;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  max-height: 180px;
+  padding: 15px 15px 15px 0;
+  font-size: 0.95rem;
+}
+.chat-input span {
+  align-self: flex-end;
+  color: #418c44;
+  cursor: pointer;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  visibility: hidden;
+  font-size: 1.35rem;
+}
+.chat-input textarea:valid ~ span {
+  visibility: visible;
+}
+
+@media (max-width: 490px) {
+  .chatbot-toggler {
+    right: 20px;
+    bottom: 20px;
+  }
+  .chatbot {
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    border-radius: 0;
+    width: 100%;
+  }
+  .chatbot .chatbox {
+    height: 90%;
+    padding: 25px 15px 100px;
+  }
+  .chatbot .chat-input {
+    padding: 5px 15px;
+  }
+  .chatbot header span {
+    display: block;
+  }
+}

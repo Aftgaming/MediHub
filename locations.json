@@ -1,0 +1,142 @@
+{
+		"Quezon City": [
+			{ name: "St. Luke's Medical Center", type: "Hospital", address: "279 E Rodriguez Sr. Ave, Quezon City, 1112 Metro Manila" },
+			{ name: "Quezon City General Hospital", type: "Hospital", address: "M269+F78, Seminary Rd, Project 8, Quezon City, Metro Manila" },
+			{ name: "Commonwealth Hospital and Medical Center", type: "Hospital", address: "Regalado Hwy, Novaliches, Quezon City, Metro Manila" },
+			{ name: "Diliman Doctors Hospital", type: "Hospital", address: "251 Commonwealth Ave, Quezon City, 1119 Metro Manila" },
+			{ name: "Metro North Medical Center Hospital", type: "Hospital", address: "1001 Mindanao Ave Ext, Brgy, Quezon City, 1106 Metro Manila" },
+			{ name: "Mercury Drug Quezon City Novaliches Nova Square", type: "Pharmacy", address: "Nova Square Quirino Highway, Cor Pablo Dela Cruz, Quezon City, 1116 Metro Manila" },
+			{ name: "Delcis Pharmacy", type: "Pharmacy", address: "Carmine Place 1 Jaguar Street, Corner Dahlia Ave, West Fairview, Quezon City, 1118 Metro Manila" },
+			{ name: "Genericsking Trading Inc (Genericsking Pharmacy) - Quezon City", type: "Pharmacy", address: "930-G Del Monte Ave, San Francisco del Monte, Quezon City, 1100 Metro Manila" },
+			{ name: "The Generics Pharmacy - Roosevelt Ave., Quezon City", type: "Pharmacy", address: "155 C Fernando Poe Jr. Ave, Quezon City, 1105 Metro Manila" },
+			{ name: "OXYMED Pharmacy & Medical Supplies", type: "Pharmacy", address: "1 Sto Tomas St., Sampaloc, Lungsod Quezon, 1113 Kalakhang Maynila" }
+		],
+		"Makati": [
+			{ name: "Makati Medical Center", type: "Hospital", address: "2 Amorsolo Street, Legazpi Village, Makati, 1229 Kalakhang Maynila" },
+			{ name: "Makati Life Medical Center", type: "Hospital", address: "Metropolitan Avenue, Malugay, Makati, 1209 Kalakhang Maynila" },
+			{ name: "Centuria Medical Makati", type: "Hospital", address: "Brgy, Century City Kalayaan Ave, cor Salamanca, Makati, Metro Manila" },
+			{ name: "St. Clare's Medical Center", type: "Hospital", address: "1838 Dian St, corner Boyle Street, Makati, 1235 Metro Manila" },
+			{ name: "Makati Life 24/7 OPD (Outpatient Department)", type: "Hospital", address: "2261 Metropolitan Ave, Makati, Metro Manila" },
+			{ name: "Mercury Drug", type: "Pharmacy", address: "H28H+3QH, Makati Ave, Makati, Metro Manila" },
+			{ name: "Apotheca Integrative Pharmacy", type: "Pharmacy", address: "GF, Eurovilla 4, 853 Antonio Arnaiz Ave, Legazpi Village, Makati, 1229 Metro Manila" },
+			{ name: "Planet Drugstore", type: "Pharmacy", address: "RCBC Plaza Tower 2, Mezzanine, 6819 Ayala Ave, Makati, 0727 Metro Manila" },
+			{ name: "Med Express MMC", type: "Pharmacy", address: "2 Amorsolo Street, Legazpi Village, Makati, 1229 Kalakhang Maynila" },
+			{ name: "Marcelo'S Pharmacy And General Merchandise", type: "Pharmacy", address: "314 J. P. Rizal St, Makati, Metro Manila" }
+		],
+		"Manila": [
+			{ name: "De Ocampo Memorial Medical Center", type: "Hospital", address: "2921 Nagtahan St, Santa Mesa, Manila, 1016 Metro Manila" },
+			{ name: "Mary Chiles General Hospital", type: "Hospital", address: "667 Dalupan St, Sampaloc, Manila, 1008 Metro Manila" },
+			{ name: "Manila Doctors Hospital", type: "Hospital", address: "HXHP+469, Taft Ave, Ermita, Manila, 1000 Metro Manila" },
+			{ name: "Philippine General Hospital", type: "Hospital", address: "University of the Philippines, Taft Ave, Ermita, Manila, 1000 Metro Manila" },
+			{ name: "Ospital ng Maynila Medical Center", type: "Hospital", address: "HXJQ+9R8, Roxas Blvd, Malate, Manila, 1004 Metro Manila" },
+			{ name: "Watsons Pharmacy", type: "Pharmacy", address: "Outlet 1 SM City Manila, Concepcion corner Arroceros and San Marcelino Street, Ermita, Manila, 1000 Metro Manila" },
+			{ name: "Mercury Drug Bambang", type: "Pharmacy", address: "1580-82 Bambang St, Santa Cruz, Manila, 1003 Metro Manila" },
+			{ name: "Alfamedix Pharmacy - San Miguel", type: "Pharmacy", address: "1646 Jose P Laurel St, San Miguel, Manila, 1008 Metro Manila" },
+			{ name: "St. Lazarus Drug", type: "Pharmacy", address: "JX7M+P46, Santa Cruz, Manila, Metro Manila" },
+			{ name: "Mercury Drug Earnshaw", type: "Pharmacy", address: "1008 Earnshaw St, Sampaloc, Manila, 1008 Metro Manila" }
+		],
+		"Caloocan": [
+			{ name: "Caloocan City Medical Center", type: "Hospital", address: "831 A. Mabini St, Caloocan, Metro Manila" },
+			{ name: "San Lorenzo Ruiz Women's Hospital", type: "Hospital", address: "General Luna Street, Caloocan, Metro Manila" },
+			{ name: "Dr. Jose N. Rodriguez Memorial Hospital", type: "Hospital", address: "Research Institute for Tropical Medicine Compound, Tala, Caloocan, Metro Manila" },
+			{ name: "Our Lady of Grace Hospital", type: "Hospital", address: "12th Avenue, Caloocan, Metro Manila" },
+			{ name: "MCU Hospital", type: "Hospital", address: "Caloocan, Metro Manila" },
+			{ name: "Mercury Drug - Monumento", type: "Pharmacy", address: "Rizal Avenue, Monumento, Caloocan, Metro Manila" },
+			{ name: "South Star Drug - Zabarte", type: "Pharmacy", address: "Zabarte Road, Camarin, Caloocan, Metro Manila" },
+			{ name: "The Generics Pharmacy - Caloocan", type: "Pharmacy", address: "#87 Samson Rd, Sangandaan, Caloocan, Metro Manila" },
+			{ name: "St. Joseph Drugstore", type: "Pharmacy", address: "7th Avenue, Caloocan, Metro Manila" },
+			{ name: "Watsons Pharmacy - Victory Mall", type: "Pharmacy", address: "Rizal Avenue Extension, Caloocan, Metro Manila" }
+		],
+		"San Juan": [
+			{ name: "San Juan Medical Center", type: "Hospital", address: "71 N. Domingo, San Juan, 1500 Metro Manila" },
+			{ name: "Cardinal Santos Medical Center", type: "Hospital", address: "10 Wilson, Greenhills West, San Juan, 1502 Metro Manila" },
+			{ name: "Healthhub Diagnostic Medical San Juan Greenhills", type: "Hospital", address: "J23W+845, Ortigas Ave, Antipolo, Metro Manila" },
+			{ name: "Maligaya Diagnostic Center", type: "Hospital", address: "159 F. Manalo, San Juan, 1500 Metro Manila" },
+			{ name: "DRMed Clinic and Laboratory", type: "Hospital", address: "4th Floor Northridge Plaza, Congressional Avenue, Quezon City, 1100 Metro Manila" },
+			{ name: "Jeanypeas", type: "Pharmacy", address: "150 F. Manalo, San Juan, 1500 Metro Manila" },
+			{ name: "Herbs & Nature PureGold - San Juan", type: "Pharmacy", address: "J24F+577, Ground Level Puregold, N. Domingo Street, Corner F. Blumentritt, Philippines, San Juan, 1500 Metro Manila" },
+			{ name: "TGP The Generics Pharmacy", type: "Pharmacy", address: "2 G.B Santos, San Juan, 1500 Metro Manila" },
+			{ name: "Planet Drug Store Corporation", type: "Pharmacy", address: "Unit B Em Building, 226 N. Domingo Corazon, San Juan, 1500 Metro Manila" },
+			{ name: "Macev’s Drugstore and General Merchandise", type: "Pharmacy", address: "Rd 7, San Juan, Metro Manila" }
+		],
+		"Navotas": [
+			{ name: "Navotas City Hospital", type: "Hospital", address: "MW6W+5C4, M. Naval St, Navotas, Metro Manila" },
+			{ name: "SmartMed Pharmacy", type: "Pharmacy", address: "56 Gov. A. Pascual St, Navotas, 1489 Metro Manila" },
+			{ name: "Mercury Drug - Navotas Poblacion (153)", type: "Pharmacy", address: "MW5W+5W8, M. Naval St, Navotas, 1485 Metro Manila" },
+			{ name: "Watson's Navotas Branch", type: "Pharmacy", address: "MW5W+FRV, Navotas, Metro Manila" },
+			{ name: "Mercury Drug Corporation.- Navotas Agora center Branch (1009)", type: "Pharmacy", address: "JXV3+MJX, N Bay Blvd, Navotas, Metro Manila" },
+			{ name: "Mercury Drug Bacog, Navotas", type: "Pharmacy", address: "1218 M. Naval St, Navotas, Metro Manila" }
+		],
+		"Mandaluyong": [
+			{ name: "VRP Medical Center", type: "Hospital", address: "163 Epifanio de los Santos Ave, Mandaluyong, 1501 Metro Manila" },
+			{ name: "Mandaluyong City Medical Center", type: "Hospital", address: "F. Martinez Ave, Mandaluyong, 1550 Metro Manila" },
+			{ name: "ACE Medical Center Mandaluyong", type: "Hospital", address: "145 Haig, Mandaluyong, 1550 Metro Manila" },
+			{ name: "Pasig City General Hospital", type: "Hospital", address: "Pasig City, Metro Manila" },
+			{ name: "Mauway Health Center", type: "Hospital", address: "Dr Jose Fabella Rd, Mandaluyong, Metro Manila" },
+			{ name: "MMR Pharmacy", type: "Pharmacy", address: "Brgy, Blk. 19B F. Martinez Ave, Mandaluyong, 1552 Metro Manila" },
+			{ name: "Mercury Drug Mandaluyong City Kalentong General", type: "Pharmacy", address: "3180 New Panaderos, Mandaluyong, 1550 Metro Manila" },
+			{ name: "Mercury Drug Libertad Mandaluyong", type: "Pharmacy", address: "8 Domingo M. Guevara, Mandaluyong, Metro Manila" },
+			{ name: "Med Global Pharmacy-Mandaluyong Branch (Mauway)", type: "Pharmacy", address: "58 Correctional Rd, Mandaluyong, 1550 Metro Manila" },
+			{ name: "Mercury Drug Maysilo Mandaluyong", type: "Pharmacy", address: "H2GM+J77, San Francisco, Mandaluyong, 1550 Metro Manila" }
+		],
+		"Malabon": [
+			{ name: "Malabon Hospital and Medical Center", type: "Hospital", address: "264 Gov. Pascual Ave, Malabon, Metro Manila" },
+			{ name: "Ospital ng Malabon", type: "Hospital", address: "MX42+W65, Malabon, Metro Manila" },
+			{ name: "San Lorenzo Ruiz General Hospital", type: "Hospital", address: "MXV4+MG9, o. reyes St, Malabon, 1478 Metro Manila" },
+			{ name: "Tito Oreta Memorial Hospital", type: "Hospital", address: "MX42+W75, F. Sevilla Blvd, Malabon, Metro Manila" },
+			{ name: "Hospital", type: "Hospital", address: "116 Marcelo H. Del Pilar St, Malabon, 1478 Metro Manila" },
+			{ name: "St.Pierre Pharmacy", type: "Pharmacy", address: "137, P. Aquino Ave, Malabon, 1470 Metro Manila" },
+			{ name: "TRIPLE R PHARMACY", type: "Pharmacy", address: "363 Gen. Luna St, Malabon, 1470 Metro Manila" },
+			{ name: "Double 88 Pharmacy", type: "Pharmacy", address: "Block 49B, Lot 5 Pampano St, Malabon, 1472 Metro Manila" },
+			{ name: "Alianna's Pharmacy", type: "Pharmacy", address: "Block 223, Lot 10 1st St, Malabon, 1472 Metro Manila" },
+			{ name: "Tumagan Pharmacy", type: "Pharmacy", address: "309 Gov. Pascual Ave, Malabon, 1470 Metro Manila" }
+		],
+		"Paranaque": [
+			{ name: "Ospital ng Parañaque", type: "Hospital", address: "GX2R+5C9, Quirino Ave, Parañaque, 1700 Metro Manila" },
+			{ name: "D.T. Protacio Medical Services Hospital", type: "Hospital", address: "484 Quirino Ave, Parañaque, Metro Manila" },
+			{ name: "Olivarez General Hospital", type: "Hospital", address: "Dr Arcadio Santos Ave, Parañaque, 1700 Metro Manila" },
+			{ name: "Ospital ng Paranaque District II", type: "Hospital", address: "F2QF+5M Parañaque, Metro Manila" },
+			{ name: "Medical Center Parañaque", type: "Hospital", address: "Dr Arcadio Santos Ave, Parañaque, 1700 Metro Manila" },
+			{ name: "Watsons Pharmacy - PITX", type: "Pharmacy", address: "Pitx, Parañaque, Metro Manila" },
+			{ name: "Mercury Drugstore Russia Better Living", type: "Pharmacy", address: "Russia Branch Doña Soledad Ave, Parañaque, 1711 Metro Manila" },
+			{ name: "Mercury Drug Store | Sucat - Canaynay", type: "Pharmacy", address: "10 B Angelina Canaynay Ave, Parañaque, 1700 Metro Manila" },
+			{ name: "Luces Pharmacy & Convenience Store", type: "Pharmacy", address: "FXXR+P8F, Quirino Ave, Parañaque, 1700 Metro Manila" },
+			{ name: "The Generics Pharmacy", type: "Pharmacy", address: "Linotype St, Parañaque, 1700 Metro Manila" }
+		],
+		"Las Pinas": [
+			{ name: "Las Piñas Doctors Hospital", type: "Hospital", address: "#8009 CAA Rd, Pulanglupa II, Las Piñas, Metro Manila" },
+			{ name: "Las Piñas General Hospital and Satellite Trauma Center", type: "Hospital", address: "Bernabe Compound, Diego Cera Ave, Pulanglupa I, Las Piñas, Metro Manila" },
+			{ name: "Unihealth Las Piñas Christ the King Medical Center", type: "Hospital", address: "130 Alabang–Zapote Rd, Pamplona 1, Las Piñas, 1740 Metro Manila" },
+			{ name: "Las Piñas City Medical Center", type: "Hospital", address: "1314 Marcos Alvarez Ave, Las Piñas, 1747 Metro Manila" },
+			{ name: "Perpetual Help Medical Center - Las Piñas Hospital", type: "Hospital", address: "Alabang–Zapote Rd, Las Piñas, 1740 Metro Manila" },
+			{ name: "Eshelle Pharmacy", type: "Pharmacy", address: "Blk 16 Lot 1 Bernabe Compound, Las Piñas, 1742 Metro Manila" },
+			{ name: "The Generics Pharmacy", type: "Pharmacy", address: "FX9J+593, Naga Rd, 1, Las Piñas, 1742 Metro Manila" },
+			{ name: "Hlbl Pharmacy", type: "Pharmacy", address: "1339 Fruto Santos Ave, Las Piñas, 1742 Metro Manila" },
+			{ name: "4Eas Pharmacy", type: "Pharmacy", address: "F252+4J5, Malunggay St, Las Piñas, Metro Manila" },
+			{ name: "T. Celis Pharmacy", type: "Pharmacy", address: "22 Gov.A Licaros, Talon 2, Las Piñas, 1747 Metro Manila" }
+		],
+		"Muntinlupa": [
+			{ name: "Medical Center Muntinlupa, Inc.", type: "Hospital", address: "38 National Road, Muntinlupa, 1772 Metro Manila" },
+			{ name: "Alabang Medical Center", type: "Hospital", address: "8 Corregidor, Muntinlupa, 1771 Metro Manila" },
+			{ name: "Asian Hospital and Medical Center", type: "Hospital", address: "2205 Civic Dr, Muntinlupa, 1780 Metro Manila" },
+			{ name: "Ospital Ng Muntinlupa", type: "Hospital", address: "C27V+PJJ Filinvest Corporate City, Civic Dr, Muntinlupa, Metro Manila" },
+			{ name: "San Roque Medical Clinic", type: "Hospital", address: "C29W+PRG, Muntinlupa, 1770 Metro Manila" }
+			{ name: "Medicina Pharmacy", type: "Pharmacy", address: "Lower Ground Floor, 092-094 South Station, T. Molina Street, Alabang, Muntinlupa City, 1770 Metro Manila" },
+			{ name: "Watsons Pharmacy", type: "Pharmacy", address: "Alabang-Montillano Footbridge, Montillano St, Muntinlupa, Metro Manila" },
+			{ name: "rightway pharmacy", type: "Pharmacy", address: "F332+QX5, Muntinlupa, Metro Manila" },
+			{ name: "7A Drugstore", type: "Pharmacy", address: "C29W+H94, South Luzon Expressway, corner Montillano Street, Alabang, Muntinlupa City, 1770 Metro Manila" },
+			{ name: "Mang Liloy Drugstore (Brgy. Bayanan, Muntinlupa City)", type: "Pharmacy", address: "221-E National Road, Muntinlupa, Metro Manila" }
+		],
+		"Pasig": [
+			{ name: "Rizal Medical Center", type: "Hospital", address: "Pasig Blvd, Pasig, 1600 Metro Manila" },
+			{ name: "Pasig City General Hospital", type: "Hospital", address: "M Eusebio, Pasig, Metro Manila" },
+			{ name: "The Medical City", type: "Hospital", address: "Ortigas Ave, Pasig, 1800 Metro Manila" },
+			{ name: "Pasig City General Hospital", type: "Hospital", address: "Pasig City, Metro Manila" },
+			{ name: "Pasig Doctors Medical Center", type: "Hospital", address: "Eulogio Amang Rodriguez Ave, Pasig, Metro Manila" },
+			{ name: "Pauleen Pharmacy Jennys Rosario Pasig", type: "Pharmacy", address: "20 GSIS Rd, Pasig, 1609 Metro Manila" },
+			{ name: "Sacred Heart Of Jesus Pharmacy", type: "Pharmacy", address: "35 Alcalde Jose, Pasig, 1600 Metro Manila" },
+			{ name: "Mercury Drug", type: "Pharmacy", address: "H3Q9+MHV, Ortigas Ave, Pasig, Metro Manila" },
+			{ name: "Reliable Pharmacy", type: "Pharmacy", address: "125 Pasig Blvd, Pasig, 1605 Metro Manila" },
+			{ name: "Sacred Heart Of Jesus Pharmacy - Pasig", type: "Pharmacy", address: "#30 B A. Mabini Street, Pasig, Metro Manila" }
+		],
+	}
