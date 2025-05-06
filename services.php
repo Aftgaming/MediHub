@@ -369,7 +369,7 @@
     </script>
     <script type="module">
         import { GoogleGenerativeAI } from "@google/generative-ai";
-        const API_KEY = "AIzaSyCpOVj3nxihduy1rjIRwKDB0unDeKHyFOY";
+        const API_KEY = "";
 
         const chatbotToggler = document.querySelector(".chatbot-toggler");
         const closeBtn = document.querySelector(".close-btn");
