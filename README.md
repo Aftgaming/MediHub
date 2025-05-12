@@ -1,5 +1,7 @@
 # MediHub
 
+Project Presentation: https://youtu.be/hBXTiNXnEyI
+
 🌐 System Overview
 MediHub is designed as an online pharmaceutical access platform that bridges the gap between rural users and urban pharmacies in the National Capital Region (NCR). The platform combines familiar e-commerce features with AI-driven assistance to ensure convenience, accessibility, and informed decision-making.
 
